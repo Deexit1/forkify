@@ -1,4 +1,3 @@
 // Global app controller
 import x from './text';
-
-console.log(`I imported ${x} from another modules`);
+console.log(`I imported ${x} from another modules and number`);
