@@ -3846,19 +3846,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _text = __webpack_require__(/*! ./text */ \"./src/js/text.js\");\n\nvar _text2 = _interopRequireDefault(_text);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// Global app controller\nconsole.log(\"I imported \" + _text2.default + \" from another modules and number\");\n\n//# sourceURL=webpack:///./src/js/index.js?");
-
-/***/ }),
-
-/***/ "./src/js/text.js":
-/*!************************!*\
-  !*** ./src/js/text.js ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nconsole.log(\"Imported\");\nexports.default = 15;\n\n//# sourceURL=webpack:///./src/js/text.js?");
+eval("\n\nconsole.log(\"It's working\");\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
